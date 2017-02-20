@@ -8,18 +8,21 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import 'mediaQueries';
+
+
+*{
+	box-sizing:border-box;
+}
 body{
+	// width: 100%;
+	// height: 100%;
 	background-color: black;
 	color:white;
 	font-size: 20px;
 }
-// .title{
-// 	border-bottom: 1px solid white;
-	
-// }
-
 h1{
-	font-size: 5em;
+	font-size: 2em;
 	text-align: center;
 	color:white;
 
@@ -28,6 +31,7 @@ h2{
 	text-align:center;
 }
 a{
+	padding: 1em;
 	color:white;
 }
 a:hover{
@@ -37,31 +41,30 @@ a:hover{
 
 #menu{
 	background-color:black;
+	overflow-y: hidden;
 }
 i{
-	// color:white;
+	
 	padding:1em;
 }
 
-// .form{
-// 	margin : auto ;
-// 	text-align:center;
-// 	padding: 1em;
-// 	border : 1px solid white;
-
-
-// }
 .pictures{
 	border-top:1px solid white;
 	
 }
-.row{
-	padding:2em;
-}
-// #formAll{
-// 	margin-bottom : 50em;
-// }
+// #image:hover{
+// 	box-shadow:
+// 	1px 1px white,
+// 	2px 2px white,
+// 	3px 3px white;
+// 	-webkit-transform: translateX(-3px);
+// 	transform: translateX(-3px);
 
+// 	// border-radius: 50%;
+// }
+.row{
+	padding:1em;
+}
 .rSocio{
 
 	text-align:center;
@@ -69,13 +72,11 @@ i{
 }
 .carousel-page
 {
-
-width:100%;
-height:400px;
-background-color:black;
-color:white;
-
+	width:100%;
+	height:400px;
+	background-color:#5f666d;
+	color:white;
 }
-#my_carousel{
-	padding-top:10em;
+#carousel{
+	padding-top:4em;
 }
